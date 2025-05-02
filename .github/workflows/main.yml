@@ -57,3 +57,5 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/mlops-iris:latest
             docker run -d -p 8501:8501 --name mlops-iris ${{ secrets.DOCKER_USERNAME }}/mlops-iris:latest
       
+
+          
