@@ -26,12 +26,6 @@ jobs:
       - name: Run training script
         run: python retraining.py
 
-      - name: Generate metrics report
-        run: |
-          echo "## Model metrics" > report.md
-          cat metrics.txt >> report.md
-          cml-send-comment report.md
-
   build_and_deploy:
     needs: retraining_model
     runs-on: ubuntu-latest
