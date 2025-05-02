@@ -22,10 +22,10 @@ Queremos poder clasificar automáticamente el tipo de flor (Setosa, Versicolor o
 
 **En la terminal:**
 
-git clone https://github.com/adriangonzalezp/mlops-iris.git
-cd mlops-iris
-python -m venv venv
-source venv/bin/activate  # o venv\Scripts\activate en Windows
-pip install -r requirements.txt
-python retraining.py
-streamlit run app.py
+git clone https://github.com/adriangonzalezp/mlops-iris.git  
+cd mlops-iris  
+python -m venv venv  
+source venv/bin/activate  # o venv\Scripts\activate en Windows  
+pip install -r requirements.txt  
+python retraining.py  
+streamlit run app.py  
